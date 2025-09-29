@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Bigi Micro Site</title>
     
     <style>
@@ -48,7 +49,7 @@
         /* Bigi Product - positioned away from follow text */
         .bigi-product {
             max-width: 200px;
-            top: 200px;
+            top: 450px;
             left: 20px;
         }
 
@@ -61,8 +62,8 @@
 
         /* Follow image - centered above social icons */
         .follow {
-            max-width: 350px;
-            bottom: -10px;
+            max-width: 500px;
+            bottom: 40px;
             left: 50%;
             transform: translateX(-50%);
         }
@@ -209,8 +210,8 @@
             }
 
             .follow {
-                max-width: 300px;
-                bottom: 100px;
+                max-width: 350px;
+                bottom: 20px;
             }
 
             .social-container {
@@ -233,17 +234,18 @@
                 max-width: 180px;
                 top: 650px;
                 left: 15px;
+                opacity:0;
             }
 
             .satisfy {
                 max-width: 110px;
                 top: 650px;
-                right: 15px;
+                right: 170px;
             }
 
             .follow {
                 max-width: 250px;
-                bottom: -5px;
+                bottom: 40px;
             }
 
             .social-container {
@@ -297,17 +299,19 @@
                 max-width: 160px;
                 top: 650px;
                 left: 10px;
+                opacity:0;
+
             }
 
             .satisfy {
                 max-width: 95px;
                 top: 650px;
-                right: 10px;
+                right: 150px;
             }
 
             .follow {
                 max-width: 200px;
-                bottom: 100px;
+             top:200px;
             }
 
             .social-container {
@@ -367,12 +371,13 @@
                 max-width:140px;
                 top: 650px;
                 left: 8px;
+                opacity: 0;
             }
 
             .satisfy {
                 max-width: 80px;
-                top: 900px;
-                right: 8px;
+                top: 650px;
+                right: 130px;
             }
 
             .input-group {
@@ -382,7 +387,8 @@
 
             .follow {
                 max-width: 180px;
-                bottom: 100px;
+                bottom: -5px;
+
             }
 
             .social-container {
@@ -438,7 +444,8 @@
     <!-- Header images -->
     <div class="image-container">
         <img src="assets/Fearless logo 1.png" alt="Bigi Logo" class="bigi-logo"/>
-        <img src="assets/Fearless product.png" alt="Bigi Product" class="bigi-product"/>
+        <img src="assets/Fearless product.png" alt="Bigi Product" class="bigi-product"/> 
+
         <img src="assets/thrill 1.png" alt="Satisfy" class="satisfy"/>
         <img src="assets/Follow all our Social Media Pages (1).png" alt="Follow" class="follow"/>
     </div>
@@ -448,11 +455,7 @@
         <!-- Instagram -->
         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-link">
             <div class="input-group">
-                <svg class="social-icon" viewBox="0 0 24 24" fill="#E4405F">
-                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" fill="white"></path>
-                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="white" stroke-width="2"></line>
-                </svg>
+               <i class="fa fa-instagram" style="color: #E4405F; font-size: 24px;"></i>
                 <input type="text" class="social-input" readonly tabindex="-1" />
                 <span class="social-label">Instagram</span>
                 <svg class="input-options" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
